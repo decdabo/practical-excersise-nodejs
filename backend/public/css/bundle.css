@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 5%;
+  background-color: rgb(39, 39, 39);
+  color: rgb(145, 145, 145);
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.index-presentation {
+  padding: 3%;
+  border-bottom: 5px solid;
+}
+
+.players-form {
+  align-items: center;
+  border: 1px solid;
+  border-top: none;
+  border-radius: 0px 0px 5px 5px;
+  color: rgb(145, 145, 145);
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5%;
+  width: 60%;
+}
+
+.players-form h4 {
+  margin-top: 1%;
+}
+
+.players-label {
+  font-size: larger;
+  margin-top: 3%;
+}
+
+.players-input {
+  background-color: rgb(39, 39, 39);
+  border: 1px solid rgb(145, 145, 145);
+  border-radius: 3px;
+  color: rgb(145, 145, 145);
+  margin-top: 1%;
+  font-size: medium;
+  padding: 1%;
+  width: 35%;
+}
+
+.form-players-button {
+  background-color: rgb(39, 39, 39);
+  border: 1px solid rgb(145, 145, 145);
+  border-radius: 3px;
+  color: rgb(145, 145, 145);
+  margin-top: 4%;
+  padding: 1%;
+  transition: all .3s;
+  width: 25%;
+}
+
+.form-players-button:hover {
+  background-color: rgb(145, 145, 145);
+  color: rgb(39, 39, 39);
+}
+
+.players-form h3 {
+  height: 20%;
+  font-size: x-large;
+}
+
+.players-form ul {
+  height: 80%;
+  width: 100%;
+}
+
+.players-form ul li {
+  background-color: rgb(39, 39, 39);
+  border: 1px solid rgb(145, 145, 145);
+  border-radius: 3px;
+  color: rgb(145, 145, 145);
+  height: 20%;
+  margin-top: 3%;
+  list-style-type: none;
+  padding: 4%;
+  text-align: center;
+  transition: all .3s;
+  width: 100%;
+}
+
+.players-form ul li:hover {
+  background-color: rgb(48, 48, 48);
+}
+
+.players-form ul li a {
+  color: rgb(145, 145, 145);
+  font-size: large;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+}
+
+.input-code-box {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2%;
+  padding: 4%;
+  width: 100%;
+}
+
+.input-code-box input {
+  background-color: rgb(39, 39, 39);
+  border: 1px solid rgb(145, 145, 145);
+  border-radius: 3px;
+  color: rgb(145, 145, 145);
+  font-size: large;
+  padding: 1%;
+  margin-top: 3%;
+  width: 50%;
+}
+
+.modal {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.342);
+  display: none;
+  justify-content: center;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  height: 100vh;
+  width: 100vw;
+}
+
+.notification {
+  border: 1px solid rgb(145, 145, 145);
+  border-radius: 3px;
+  color: rgb(218, 76, 76);
+  font-size: larger;
+  position: absolute;
+  padding: 1%;
+  opacity: 0%;
+  transition: all .3s;
+}
+
+.notification h5 {
+  margin-bottom: 3%;
+}
+
+.notification p {
+  font-size: large;
+}
+
+.show-notification {
+  opacity: 100%;
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+  border: 4px solid rgb(145, 145, 145);
+  border-radius: 50%;
+  border-left-color: transparent;
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+
+.clipboard {
+  align-self: center;
+  background-color: rgb(39, 39, 39);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+  justify-content: space-between;
+  padding: 3%;
+  width: 60%;
+}
+
+.clipboard div {
+  height: 70%;
+  width: 100%;
+  padding: 2%;
+}
+
+.clipboard div input {
+  color: rgb(39, 39, 39);
+  font-size: larger;
+  height: 100%;
+  width: 60%;
+}
+
+.clipboard div button {
+  background-color: rgb(48, 48, 48);
+  border-radius: 5px;
+  border: 1px solid rgb(145, 145, 145);
+  color: rgb(145, 145, 145);
+  cursor: pointer;
+  height: 100%;
+  margin-left: 2%;
+  width: 20%;
+}
+
+.clipboard a {
+  color: rgb(145, 145, 145);
+  margin: auto;
+  font-size: x-large;
+  text-decoration: none;
+}
+
+.show-modal { 
+  display: flex;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*# sourceMappingURL=bundle.css.map*/
